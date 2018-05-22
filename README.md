@@ -1,16 +1,16 @@
-# Js-Optional
+# ES-Optional
 ---
-JavaScript实现Java Optional对象相关的方法。用于“非”数据的函数式判断。
+JavaScript(ES)实现Java Optional对象相关的方法。用于“非”数据的函数式判断。
 
 ---
 ##使用方法：
 安装：
 ```
-npm install js-options --save-dev
+npm install es-options --save-dev
 ```
 使用：
 ```
-import {fluent} from 'js-optional'
+import {fluent} from 'es-optional'
 fluent(null).else('null');
 ```
 说明：
