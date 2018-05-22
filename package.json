@@ -1,0 +1,32 @@
+{
+  "name": "es-optional",
+  "version": "1.0.0",
+  "description": "CHKUI-SITE",
+  "scripts": {
+    "test": "jest",
+    "babel": "babel ./src/ -d ./",
+    "build": "npm run babel & npm run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.4"
+  },
+  "author": "CHKUI",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkui/es-optional.git"
+  },
+  "keywords": [
+    "optional"
+  ],
+  "bugs": {
+    "url": "https://github.com/chkui/es-optional/issues"
+  },
+  "homepage": "https://github.com/chkui/es-optional#readme"
+}
